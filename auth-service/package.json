@@ -4,10 +4,20 @@
   "description": "the user management service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/index.js"
+    "build": "tsc -p .",
+    "start": "node dist/index.js"
   },
-  "keywords": ["nodejs", "express", "microservices", "auth-service"],
+  "keywords": [
+    "nodejs",
+    "express",
+    "microservices",
+    "auth-service"
+  ],
   "author": "Abhinay Jangde <abhinayjangde@gmail.com>",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  }
 }
