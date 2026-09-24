@@ -1,0 +1,13 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "the user management service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "keywords": ["nodejs", "express", "microservices", "auth-service"],
+  "author": "Abhinay Jangde <abhinayjangde@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs"
+}
