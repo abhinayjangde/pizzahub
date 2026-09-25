@@ -1,7 +1,12 @@
 async function main() {
     const app: string = "hello";
+    const user = {
+        name: "Abhi",
+    };
 
-    console.log(app);
+    const name = user.name;
+
+    console.log(app, name);
 }
 
 main();
