@@ -4,7 +4,7 @@ async function main() {
         name: "Abhi",
     };
 
-    const name = user["name"];
+    const name = user.name;
 
     console.log(app, name);
 }
