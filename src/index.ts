@@ -5,8 +5,8 @@ async function main() {
     };
 
     const name = user.name;
-
-    console.log(app, name);
+    console.log(name);
+    console.log(app);
 }
 
 main();
