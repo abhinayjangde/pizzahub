@@ -1,3 +1,13 @@
+import app from "./app.js";
 import { Config } from "./config/index.js";
 
-console.log(`Server is running on port ${Config.PORT}`);
+const startServer = async () => {
+    const PORT = Config.PORT;
+    try {
+        app.listen(PORT, () => console.log(`listenint on port: ${PORT}`));
+    } catch (err) {
+        console.error(err);
+    }
+};
+
+startServer();
