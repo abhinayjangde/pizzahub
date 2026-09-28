@@ -41,5 +41,8 @@
         "*.json": [
             "npm run format:fix"
         ]
+    },
+    "dependencies": {
+        "dotenv": "^18.0.4"
     }
 }

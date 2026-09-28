@@ -1,6 +1,3 @@
-async function main() {
-    const app: string = "hello";
-    console.log(app);
-}
+import { Config } from "./config/index.js";
 
-main();
+console.log(`Server is running on port ${Config.PORT}`);
