@@ -6,7 +6,7 @@ import type { HttpError } from "http-errors";
 const app: Express = express();
 
 app.get("/", (_, res: Response) => {
-    res.send("auth service is running");
+    res.status(200).send("auth service is running");
 });
 
 // global error handler
